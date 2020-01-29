@@ -26,3 +26,8 @@ npm run build
 * 地图的国家名称为英文名，而爬取数据为中文名，采用src/js/countryNameDict进行名称修正，若出现新的国家，需要对countryNameDict进行修正
 * 地级市地图显示时有严重卡顿现象
 
+## 使用效果
+![世界地图](https://github.com/fyt7943tyf/pneumonia/blob/master/world.jpg)
+![省级地图](https://github.com/fyt7943tyf/pneumonia/blob/master/world.jpg)
+![市级地图](https://github.com/fyt7943tyf/pneumonia/blob/master/world.jpg)
+
