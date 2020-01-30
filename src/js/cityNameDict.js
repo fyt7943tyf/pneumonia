@@ -133,7 +133,7 @@ export function cityNameDict(provinceName, cityName) {
                 case "吐鲁番市":
                     newCityName = "吐鲁番";
                     break;
-                case "第八师石河子市":
+                case "第八师石河子":
                     newCityName = "石河子";
                     break;
                 default:
@@ -147,6 +147,9 @@ export function cityNameDict(provinceName, cityName) {
                     break;
                 case "黔西南州":
                     newCityName = "黔西";
+                    break;
+                case "黔东南州":
+                    newCityName = "黔东";
                     break;
                 default:
                     break;

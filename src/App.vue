@@ -79,7 +79,7 @@
             let countryName = countryNameDict(item["provinceName"])
             if (dataMap[countryName] == null) {
               // eslint-disable-next-line no-console
-              console.error(item[0]);
+              console.error(item["provinceName"]);
             }
             dataMap[countryName] = item["confirmedCount"];
           });
