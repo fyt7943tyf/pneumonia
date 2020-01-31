@@ -46,19 +46,6 @@ export function cityNameDict(provinceName, cityName) {
                     break;
             }
             break;
-        case "北京":
-            newCityName += "区";
-            break;
-        case "上海":
-            switch (cityName) {
-                case "浦东":
-                    newCityName = "浦东新区";
-                    break;
-                default:
-                    newCityName += "区";
-                    break;
-            }
-            break;
         case "云南":
             switch (cityName) {
                 case "西双版纳":
@@ -99,6 +86,15 @@ export function cityNameDict(provinceName, cityName) {
                     break;
                 case "乐东":
                     newCityName = "乐东黎族"
+                    break;
+                case "陵水":
+                    newCityName = "陵水黎族"
+                    break;
+                case "澄迈":
+                    newCityName = "澄迈县"
+                    break;
+                case "临高":
+                    newCityName = "临高县"
                     break;
                 default:
                     break;
