@@ -16,7 +16,8 @@ let counryMap = {
     "斯里兰卡": "Sri Lanka",
     "阿联酋": "United Arab Emirates",
     "芬兰": "Finland",
-    "印度": "India"
+    "印度": "India",
+    "意大利": "Italy"
 }
 
 export function countryNameDict(countryName) {

@@ -91,6 +91,15 @@ export function cityNameDict(provinceName, cityName) {
                 case "琼中县":
                     newCityName = "琼中"
                     break;
+                case "定安":
+                    newCityName = "定安县"
+                    break;
+                case "昌江":
+                    newCityName = "昌江黎族"
+                    break;
+                case "乐东":
+                    newCityName = "乐东黎族"
+                    break;
                 default:
                     break;
             }
@@ -171,6 +180,9 @@ export function cityNameDict(provinceName, cityName) {
                     break;
                 case "凉山":
                     newCityName = "凉山彝族";
+                    break;
+                case "阿坝州":
+                    newCityName = "阿坝羌族";
                     break;
                 default:
                     break;
