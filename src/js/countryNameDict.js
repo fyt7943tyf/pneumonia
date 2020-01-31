@@ -18,7 +18,8 @@ let counryMap = {
     "芬兰": "Finland",
     "印度": "India",
     "意大利": "Italy",
-    "英国": "United Kingdom"
+    "英国": "United Kingdom",
+    "俄罗斯": "Russia"
 }
 
 export function countryNameDict(countryName) {
