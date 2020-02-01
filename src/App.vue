@@ -237,8 +237,8 @@
         },
         credits: {
           enable: true,
-          text: "Data from 3g.dxy.cn",
-          href: "https://3g.dxy.cn/newh5/view/pneumonia"
+          text: "Data from ncov.dxy.cn",
+          href: "https://ncov.dxy.cn/ncovh5/view/pneumonia"
         },
         series: [{
           data: null,

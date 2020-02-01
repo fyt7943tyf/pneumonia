@@ -138,8 +138,11 @@ export function cityNameDict(provinceName, cityName) {
                 case "吐鲁番市":
                     newCityName = "吐鲁番";
                     break;
-                case "第八师石河子":
+                case "第八师":
                     newCityName = "石河子";
+                    break;
+                case "第九师":
+                    newCityName = "塔城";
                     break;
                 default:
                     break;
@@ -174,11 +177,20 @@ export function cityNameDict(provinceName, cityName) {
                 case "甘孜州":
                     newCityName = "甘孜";
                     break;
-                case "凉山":
+                case "凉山州":
                     newCityName = "凉山彝族";
                     break;
                 case "阿坝州":
                     newCityName = "阿坝羌族";
+                    break;
+                default:
+                    break;
+            }
+            break;
+        case "青海":
+            switch (cityName) {
+                case "西宁市":
+                    newCityName = "西宁";
                     break;
                 default:
                     break;
