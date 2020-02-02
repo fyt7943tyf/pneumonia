@@ -60,6 +60,9 @@ export function cityNameDict(provinceName, cityName) {
                 case "德宏":
                     newCityName = "德宏傣族景颇族";
                     break;
+                case "楚雄":
+                    newCityName = "楚雄彝族";
+                    break;
                 default:
                     break;
             }
