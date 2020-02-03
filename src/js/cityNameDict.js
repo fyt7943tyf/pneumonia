@@ -195,6 +195,18 @@ export function cityNameDict(provinceName, cityName) {
                 case "西宁市":
                     newCityName = "西宁";
                     break;
+                case "海北州":
+                    newCityName = "海北";
+                    break;
+                default:
+                    break;
+            }
+            break;
+        case "内蒙古":
+            switch (cityName) {
+                case "乌海市":
+                    newCityName = "乌海";
+                    break;
                 default:
                     break;
             }
