@@ -42,6 +42,9 @@ export function cityNameDict(provinceName, cityName) {
                 case "石柱县":
                     newCityName = "石柱土家族";
                     break;
+                case "彭水县":
+                    newCityName = "彭水苗族土家族";
+                    break;
                 default:
                     break;
             }
@@ -62,6 +65,9 @@ export function cityNameDict(provinceName, cityName) {
                     break;
                 case "楚雄":
                     newCityName = "楚雄彝族";
+                    break;
+                case "文山":
+                    newCityName = "文山苗族";
                     break;
                 default:
                     break;
@@ -141,6 +147,9 @@ export function cityNameDict(provinceName, cityName) {
                 case "吐鲁番市":
                     newCityName = "吐鲁番";
                     break;
+                case "第六师":
+                    newCityName = "五家渠";
+                    break;
                 case "第八师":
                     newCityName = "石河子";
                     break;
@@ -170,6 +179,9 @@ export function cityNameDict(provinceName, cityName) {
             switch (cityName) {
                 case "四平市":
                     newCityName = "四平";
+                    break;
+                case "吉林市":
+                    newCityName = "吉林";
                     break;
                 default:
                     break;
