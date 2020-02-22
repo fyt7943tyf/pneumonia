@@ -45,6 +45,9 @@ export function cityNameDict(provinceName, cityName) {
                 case "彭水县":
                     newCityName = "彭水苗族土家族";
                     break;
+                case "酉阳县":
+                    newCityName = "酉阳";
+                    break;
                 default:
                     break;
             }
@@ -54,19 +57,19 @@ export function cityNameDict(provinceName, cityName) {
                 case "西双版纳":
                     newCityName = "西双版纳傣族";
                     break;
-                case "大理":
+                case "大理州":
                     newCityName = "大理白族";
                     break;
-                case "红河":
+                case "红河州":
                     newCityName = "红河哈尼族彝族";
                     break;
-                case "德宏":
+                case "德宏州":
                     newCityName = "德宏傣族景颇族";
                     break;
-                case "楚雄":
+                case "楚雄州":
                     newCityName = "楚雄彝族";
                     break;
-                case "文山":
+                case "文山州":
                     newCityName = "文山苗族";
                     break;
                 default:
@@ -147,14 +150,32 @@ export function cityNameDict(provinceName, cityName) {
                 case "吐鲁番市":
                     newCityName = "吐鲁番";
                     break;
-                case "第六师":
+                case "兵团第四师":
+                    newCityName = "可克达拉";
+                    break;
+                case "兵团第六师五家渠市":
                     newCityName = "五家渠";
                     break;
-                case "第八师":
+                case "兵团第八师石河子市":
                     newCityName = "石河子";
                     break;
-                case "第九师":
+                case "兵团第九师":
                     newCityName = "塔城";
+                    break;
+                case "兵团第十二师":
+                    newCityName = "乌鲁木齐";
+                    break;
+                case "昌吉州":
+                    newCityName = "昌吉";
+                    break;
+                case "巴州":
+                    newCityName = "巴音郭楞";
+                    break;
+                case "兵团第七师":
+                    newCityName = "克拉玛依";
+                    break;
+                case "阿克苏地区":
+                    newCityName = "阿克苏";
                     break;
                 default:
                     break;
