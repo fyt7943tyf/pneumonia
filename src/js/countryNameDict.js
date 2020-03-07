@@ -86,7 +86,7 @@ let counryMap = {
     "塞尔维亚": "Republic of Serbia",
     "南非": "South Africa",
     "秘鲁": "Peru",
-    "哥斯达黎加": "Costa rica",
+    "哥斯达黎加": "Costa Rica",
     "哥伦比亚": "Colombia",
     "多哥": "Togo"
 }
