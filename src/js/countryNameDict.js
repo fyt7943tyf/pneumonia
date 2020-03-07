@@ -79,6 +79,16 @@ let counryMap = {
     "柬埔寨": "Cambodia",
     "斯里兰卡": "Sri Lanka",
     "中国": "China",
+    "喀麦隆": "Cameroon",
+    "波黑": "Bosnia and Herzegovina",
+    "不丹": "Bhutan",
+    "梵蒂冈": "Vatican",
+    "塞尔维亚": "Republic of Serbia",
+    "南非": "South Africa",
+    "秘鲁": "Peru",
+    "哥斯达黎加": "Costa rica",
+    "哥伦比亚": "Colombia",
+    "多哥": "Togo"
 }
 
 export function countryNameDict(countryName) {
