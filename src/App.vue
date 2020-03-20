@@ -68,7 +68,7 @@
     getWorldMap() {
       NProgress.start();
       this.axios.get("map/world-highres2.geo.json").then((res) => {
-        let dataMap = {}
+        let dataMap = {};
         res.data['features'].forEach((item) => {
           dataMap[item['properties']['name']] = 0;
         });
@@ -76,7 +76,7 @@
         this.getDxyData().then((res) => {
           res = res["world"];
           res.forEach((item) => {
-            let countryName = countryNameDict(item["provinceName"])
+            let countryName = countryNameDict(item["provinceName"]);
             if (dataMap[countryName] == null) {
               // eslint-disable-next-line no-console
               console.error(item["provinceName"]);
@@ -101,7 +101,7 @@
           let begin = res.data.indexOf(beginSign) + beginSign.length;
           let end = res.data.indexOf("}catch(e)", begin);
           let china = JSON.parse(res.data.substr(begin, end - begin));
-          beginSign = "window.getListByCountryTypeService2 = ";
+          beginSign = "window.getListByCountryTypeService2true = ";
           begin = res.data.indexOf(beginSign) + beginSign.length;
           end = res.data.indexOf("}catch(e)", begin);
           let world = JSON.parse(res.data.substr(begin, end - begin));
