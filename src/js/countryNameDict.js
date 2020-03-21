@@ -155,6 +155,9 @@ let counryMap = {
     "吉布提": "Djibouti",
     "斐济": "Fiji",
     "尼日尔": "Niger",
+    "马达加斯加": "Madagascar",
+    "津巴布韦": "Zimbabwe",
+    "乍得": "Chad"
  }
 
 export function countryNameDict(countryName) {

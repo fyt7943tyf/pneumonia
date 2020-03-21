@@ -165,7 +165,7 @@
       height: 0,
       chartOptions: {
         title: {
-          text: 'Wuhan Pneumonia'
+          text: 'COVID-19'
         },
         mapNavigation: {
           enabled: true,
