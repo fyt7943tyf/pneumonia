@@ -157,7 +157,30 @@ let counryMap = {
     "尼日尔": "Niger",
     "马达加斯加": "Madagascar",
     "津巴布韦": "Zimbabwe",
-    "乍得": "Chad"
+    "乍得": "Chad",
+    "乌干达": "Uganda",
+    "马里": "Mali",
+    "厄立特里亚": "Eritrea",
+    "缅甸": "Myanmar",
+    "海地": "Haiti",
+    "几内亚比绍": "Guinea Bissau",
+    "叙利亚": "Syria",
+    "多米尼克": "Dominica",
+    "利比亚": "Libya",
+    "莫桑比克": "Mozambique",
+    "格林那达": "Grenada",
+    "老挝": "Laos",
+    "圣其茨和尼维斯": "Saint Kitts and Nevis",
+    "北马里亚纳群岛联邦": "Northern Mariana Islands",
+    "安哥拉": "Angola",
+    "佛得角": "Cape verde",
+    "博茨瓦纳": "Botswana",
+    "伯利兹": "Belize",
+    "布隆迪共和国": "Burundi",
+    "马拉维": "Malawi",
+    "塞拉利昂": "Sierra Leone",
+    "东帝汶": "East Timor",
+    "巴布亚新几内亚": "Papua New Guinea"
  }
 
 export function countryNameDict(countryName) {
